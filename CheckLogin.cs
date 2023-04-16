@@ -9,7 +9,7 @@ namespace Autolog
 
         public bool SelectData(string userInsert, string passInsert)
         {
-            string conString = "SERVER= localhost;DATABASE=lol_val;UID=root;PASSWORD=mason123;";
+            string conString = "SERVER= localhost;DATABASE=lol_val;UID=username;PASSWORD=password;";
 
             MySqlConnection conn = new MySqlConnection(conString);
 
