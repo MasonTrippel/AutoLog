@@ -12,7 +12,7 @@ namespace Autolog
         public UserControl1()
         {
             InitializeComponent();
-            File.WriteAllText("C:\\Users\\tripp\\source\\repos\\Autolog\\Autolog\\conString.txt", "Server=localhost;Port=3306;Database=lol_val;Uid=root;Pwd=mason123;");
+            File.WriteAllText("C:\\Users\\tripp\\source\\repos\\Autolog\\Autolog\\conString.txt", "Server=localhost;Port=3306;Database=lol_val;Uid=username;Pwd=password;");
             register1.Hide();
             button1.Hide();
 
